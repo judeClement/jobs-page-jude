@@ -6,6 +6,8 @@ import Requirements from './components/Requirements';
 import Summary from './components/Summary'
 import Responsibilities from './components/Responsibilities';
 import Interests from './components/Interests';
+import Landing from './components/Landing'
+import JobCard from './components/JobCard';
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
 <Summary/>
 <Responsibilities/>
 <Requirements/>
-
 <Interests/>
+
+<Landing/>
+<JobCard/>
     </div>
   );
 }
