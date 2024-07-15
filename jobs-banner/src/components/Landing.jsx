@@ -38,6 +38,7 @@ const styles = {
     fontWeight: 'bold',
     color: '#000',
     marginBottom: '1rem',
+    textAlign: 'center', // Center text on small screens
   },
   highlightedText: {
     color: '#007bff',
@@ -46,9 +47,11 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     marginBottom: '20px',
+    width: '100%',
+    maxWidth: '500px', // Set a max width for the input container
   },
   input: {
-    width: '440px',
+    flexGrow: 1, // Allow input to grow and take available space
     height: '40px',
     borderRadius: '25px',
     border: 'none',
@@ -65,7 +68,7 @@ const styles = {
     padding: '0 20px',
     marginLeft: '10px',
     cursor: 'pointer',
-    width: '98px',
+    flexShrink: 0, // Prevent the button from shrinking
   },
   cardsContainer: {
     display: 'flex',
@@ -73,7 +76,7 @@ const styles = {
     justifyContent: 'center',
     gap: '20px',
     marginTop: '20px',
-    backgroundColor:"white"
+    backgroundColor: 'white',
   },
 };
 
